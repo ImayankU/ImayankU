@@ -4,8 +4,7 @@ const providerSchema = new mongoose.Schema({
     name: {
         type: String,
         required: true,
-        trim: true,
-        unique: true, // Ensure names are unique
+        unique: true,
     },
     plan: {
         type: String,
